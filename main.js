@@ -20,4 +20,5 @@ colore = prompt("inserire il colore preferito");
 
 
 // output creazione password //
-document.getElementById('cane').innerHTML = "La tua password è: " + nome + cognome + colore + "19";
+document.getElementById('password').innerHTML = '<span>"La tua password è: "</span>' + '<h1>' + nome + cognome + colore + "19" + '</h1>';
+document.body.style.backgroundImage = "url('https://www.statigeneralinnovazione.it/online/wp-content/uploads/2015/08/2015-08-28-password.jpg')";
